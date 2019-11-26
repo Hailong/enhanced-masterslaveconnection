@@ -1,0 +1,20 @@
+{
+    "name": "hailong/enhanced-masterslaveconnection",
+    "description": "Add common enhancements to the Doctrine default MasterSlaveConnection implementation.",
+    "type": "library",
+    "require": {
+        "doctrine/dbal": "^2.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hailong Zhao",
+            "email": "hailongzh@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hailong\\": "src/"
+        }
+    }
+}
